@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Projekt_Szkolny_system_oceniania.Person">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt_Szkolny_system_oceniania.Students">
+    <Position X="7.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAAAACAAAAAAAQgAAAAAQAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Students.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt_Szkolny_system_oceniania.Teacher">
+    <Position X="9.75" Y="3" Width="1.5" />
+    <InheritanceLine Type="Projekt_Szkolny_system_oceniania.Person" ManuallyRouted="true">
+      <Path>
+        <Point X="8" Y="1.624" />
+        <Point X="10.811" Y="1.624" />
+        <Point X="10.811" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAAABBAAAAAQAAAEAAACAAAACAAAAAAAAEAAgAAAAA=</HashCode>
+      <FileName>Teacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt_Szkolny_system_oceniania.Classes">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt_Szkolny_system_oceniania.DatabaseManager">
+    <Position X="6" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABQAAAQAAAAAAAAIAAEkAAAACAAAAAAACA=</HashCode>
+      <FileName>DatabaseManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt_Szkolny_system_oceniania.Extensions">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAEAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Extensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt_Szkolny_system_oceniania.Grade">
+    <Position X="2.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAACAAAAAAgAAAAAAAAARACAAA=</HashCode>
+      <FileName>Grade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt_Szkolny_system_oceniania.Presence">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAASAAA=</HashCode>
+      <FileName>Presence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt_Szkolny_system_oceniania.Subject">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Subject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Projekt_Szkolny_system_oceniania.SupervisingTeacher">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>SupervisingTeacher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
